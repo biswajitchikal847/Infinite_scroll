@@ -1,0 +1,40 @@
+#scrool_div{
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    border: 15px solid brown;
+    border-radius: 10px;
+    overflow: auto;
+    scroll-padding: 1000px;
+    
+    
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+
+  ::-webkit-scrollbar {
+    width: 2em;  
+    height: 0;
+}
+::-webkit-scrollbar-thumb {
+    height: 1em;
+    border: 0.5em solid rgba(0, 0, 0, 0);  
+    background-clip: padding-box;
+    border-radius: 1em; 
+    background-color: rgb(117, 116, 116);
+    
+}
+::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none;
+}
